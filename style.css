@@ -68,7 +68,8 @@ body {
 .card-container {
   width: 90vh;
   max-width: 730px;
-  height: 60vh;
+  min-width: 550px;
+  height: 25rem;
   background-color: #f0f0f0;
   border-radius: 1.5rem;
   margin: 0 auto;
@@ -77,7 +78,6 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* padding-top: 3rem; */
   padding: 2rem 2rem 1rem 3rem;
 }
 
@@ -92,7 +92,7 @@ body {
 
 .user-title {
   font-size: 1.5rem;
-  margin: 0.75rem 0;
+  margin: 0.2rem 0;
 }
 
 .user-value {
@@ -103,7 +103,7 @@ body {
 .icon {
   background: transparent;
   border: transparent;
-  font-size: 2rem;
+  font-size: 1.75rem;
   cursor: pointer;
   color: var(--clr-grey);
   transition: var(--transition);
